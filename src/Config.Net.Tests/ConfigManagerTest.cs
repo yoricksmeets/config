@@ -587,5 +587,15 @@ namespace Config.Net.Tests
          Cfg.Configuration.RemoveStore(store.Name);
          Assert.IsNull(Cfg.Read(setting).Value);
       }
+
+      [Test]
+      public void Read_StoreContainsEmptyString_ReadsDefaultValue()
+      {
+         _store.Write("key1", string.Empty);
+
+         string value = Cfg.Read(UnitTestName);
+
+         Assert.AreEqual(UnitTestName.DefaultValue, value);
+      }
    }
 }
