@@ -278,16 +278,16 @@ namespace Config.Net
                string value = store.Read(key);
 
                //try to read by alternative key
-               if(value == null && hasAlternatives)
+               if(string.IsNullOrEmpty(value) && hasAlternatives)
                {
                   foreach(string altName in alsoKnownAs)
                   {
                      value = store.Read(altName);
-                     if(value != null) break;
+                     if(!string.IsNullOrEmpty(value)) break;
                   }
                }
 
-               if(value != null) return value;
+               if(!string.IsNullOrEmpty(value)) return value;
             }
          }
          return null;
