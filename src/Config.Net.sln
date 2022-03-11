@@ -48,6 +48,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{3AAB816A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config.Net.Azure.KeyVault", "Impl\Azure\Config.Net.Azure.KeyVault\Config.Net.Azure.KeyVault.csproj", "{5CE56287-6FC3-443C-BCDE-FC75B257AEC1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config.Net.Xml", "Config.Net.Xml\Config.Net.Xml.csproj", "{82DACDF2-A95B-4033-9B3E-A4D9AB5E478B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{5CE56287-6FC3-443C-BCDE-FC75B257AEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE56287-6FC3-443C-BCDE-FC75B257AEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE56287-6FC3-443C-BCDE-FC75B257AEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DACDF2-A95B-4033-9B3E-A4D9AB5E478B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DACDF2-A95B-4033-9B3E-A4D9AB5E478B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DACDF2-A95B-4033-9B3E-A4D9AB5E478B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DACDF2-A95B-4033-9B3E-A4D9AB5E478B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

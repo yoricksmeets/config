@@ -4,6 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <None Update="TestData\sample.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="TestData\sample.Debug.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
        <DependentUpon>TestData\sample.json</DependentUpon>
@@ -20,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Config.Net.Json\Config.Net.Json.csproj" />
+    <ProjectReference Include="..\Config.Net.Xml\Config.Net.Xml.csproj" />
     <ProjectReference Include="..\Config.Net.Yaml\Config.Net.Yaml.csproj" />
     <ProjectReference Include="..\Config.Net\Config.Net.csproj" />
     <ProjectReference Include="..\Impl\Azure\Config.Net.Azure.KeyVault\Config.Net.Azure.KeyVault.csproj" />

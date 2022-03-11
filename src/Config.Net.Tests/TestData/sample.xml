@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+   <Logging>
+      <IncludeScopes>false</IncludeScopes>
+      <LogLevel>
+         <Default>Debug</Default>
+         <System>Information</System>
+         <Microsoft>Information</Microsoft>
+      </LogLevel>
+   </Logging>
+   <ApplicationInsights>
+      <InstrumentationKey>c75aaedd-7e93-4f67-b7b7-526f7924ccaa</InstrumentationKey>
+   </ApplicationInsights>
+   <Numbers>1</Numbers>
+   <Numbers>2</Numbers>
+   <Numbers>3</Numbers>
+   <Creds>
+      <Username>user1</Username>
+      <Password>pass1</Password>
+   </Creds>
+   <Creds>
+      <Username>user2</Username>
+      <Password>pass2</Password>
+   </Creds>
+</config>
